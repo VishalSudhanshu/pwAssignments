@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+
+    <div>
+        <a href="#answer1">Answer 1</a>
+        <a href="#answer2">Answer 2</a>
+        <a href="#answer3">Answer 3</a>
+        <a href="#answer4">Answer 4</a>
+        <a href="#answer5">Answer 5</a>
+    </div>
+    <!-- Answer 1 -->
+    <div id="answer1">
+        <h3>Answer 1</h3>
+        <img width="280px" src="./Assets/Batman.jpg" alt="Batman">
+        <img width="280px" src="./Assets/homelander.jpg" alt="Homelander">
+        <img width="280px" src="./Assets/Ironman.jpg" alt="Ironman">
+    </div>
+    <br>
+
+    <!-- Answer 2 -->
+    <div id="answer2">
+        <h3>Answer 2</h3>
+        <video height="300px" controls src="./Assets/loop.mp4"></video>
+        <audio controls src="./Assets/spongebop.mp3"></audio>
+    </div>
+    <br>
+    
+    <!-- Answer 3 -->
+    <div id="answer3">
+        <h3>Answer 3</h3>
+        <video height="300px" controls loop autoplay src="./Assets/loop.mp4"></video>
+        <audio controls loop autoplay src="./Assets/spongebop.mp3"></audio>
+    </div>
+    <br>
+
+    <!-- Answer 4 -->
+    <div id="answer4">
+        <h3>Answer 4</h3>
+        <iframe width="500px" height="400px" src="https://en.wikipedia.org/wiki/Physics_Wallah"  frameborder="1"></iframe>
+    </div>
+    <br>
+
+    <div id="answer5">
+        <h3>Answer 5</h3>
+        <form action="submit" method="post">
+            <fieldset>
+                <legend>Sign up</legend>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname"><br>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password"><br>
+
+                <label for="confpass">Confirm password:</label>
+                <input type="password" id="confpass"><br>
+
+                <label for="age">Age:</label>
+                <input type="number" id="age"><br>
+
+                <label for="gender">Gender: </label>
+                <label for="male"><input type="radio" id="male" value="male">Male</label>
+                <label for="female"><input type="radio" id="female" value="female">Female</label>
+                <label for="other"><input type="radio" id="other" value="other">Other</label><br>
+
+                <input type="checkbox" name="" id="terms">
+                <label for="terms">Agree with terms and conditions</label><br>
+
+                <button>Sign up</button>
+            </fieldset>
+        </form>
+
+        <form action="submit" method="get">
+            <fieldset>
+                <legend>Sign in</legend>
+                <label for="email">Enter your Email: </label>
+                <input type="email" id="email"><br>
+
+                <label for="password">Password </label>
+                <input type="password" id="password"><br>
+
+                <button>Sign in</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
