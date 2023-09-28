@@ -1,0 +1,24 @@
+/* Base paragraph styling */
+.paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Styling for the special paragraph */
+.paragraph--special {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px;
+    border: 2px solid #ff9900;
+    font-weight: bold;
+}
+
+/* Styling for the warning paragraph */
+.paragraph--warning {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #ff0000;
+    font-weight: bold;
+}

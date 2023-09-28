@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 || Answer 1</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="answer1.css">
+    <!-- Internal CSS  -->
+    <style>
+        .internal{
+            background-color: rgb(216, 184, 142);
+            font-size: 30px;
+            padding: 15px;
+            margin: 25px 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Answer 1 -->
+    <!-- 1st Priority - Inline CSS
+    2nd Priority - Internal CSS
+    3rd Priority - External CSS -->
+    <div style="background-color: rgb(255, 110, 110); font-size: 30px;" class="internal external" >
+        Hello, I am Div.
+    </div>
+
+    <div class="external">I am using External CSS</div>
+    <div class="internal">I am using Internal CSS</div>
+    <div style="background-color: aquamarine; font-size: 30px; margin: 25px 15px; padding: 15px;">I am using Inline CSS</div>
+
+</body>
+</html>
