@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+    background-color: #6495ed;
+    padding: 10px 20px;
+}
+.tab{
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+.tab a{
+    color: #ffffff;
+}
+
+.card{
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    background-color: #f8c42e;
+    height: 240px;
+    width: 340px;
+    border-radius: 10px;
+}
+.card img{
+    margin-bottom: 5px;
+    height: 220px;
+    width: 330px;
+    border-radius: 10px;
+}
+.card span{
+    font-weight: 900;
+    padding-right: 5px;
+}
+.card p{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.car{
+    margin: 20px;
+    padding: 20px;
+}
+.car img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+
+.about-us{
+    margin: 25px;
+    padding: 25px;
+    width: 90%;
+    text-align: center;
+}
+.about-us h1{
+    margin: 20px;
+}
+.about-us p{
+    margin: 20px;
+    text-align: start;
+    padding: 0px 70px;
+}
+
+.box{
+    margin: 30px;
+    padding: 20px;
+}
+.box h1{
+    margin-bottom: 20px;
+}
+.box ol{
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.transparent-box{
+    background-color: #7fffd4;
+}
+.transparent-box:hover{
+    opacity: 0.7;
+}
+
+div.navbar{
+    background-color: #fff;
+}
+div .tab a{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5px 13px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+div.navbar>.tab>a:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+#tab1 a{
+    border-style: solid;
+    border-radius: 8px;
+}
+#tab2 a{
+    border-style: dashed;
+    border-radius: 8px;
+}
+#tab3 a{
+    border-style: dotted;
+    border-radius: 8px;
+}
+#tab4 a{
+    border-style: groove;
+    border-radius: 8px;
+}
+#tab5 a{
+    border-style: ridge;
+    border-radius: 8px;
+}
+
+.blog {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.blog h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.blog p {
+    font-family: 'Montserrat', sans-serif;
+}
