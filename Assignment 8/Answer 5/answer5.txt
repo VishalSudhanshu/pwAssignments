@@ -1,0 +1,46 @@
+The z-index property is a CSS property that controls the stacking order of elements in a web page. It determines which elements are displayed in front of or behind other elements when they overlap in the same area on the web page. Elements with a higher z-index value are displayed on top of elements with a lower z-index value.
+
+Here's a basic explanation of how z-index works with a code example:
+______________________________________________________
+------------------------Code--------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        #box1 {
+            background-color: red;
+            top: 50px;
+            left: 50px;
+            z-index: 2;
+        }
+
+        #box2 {
+            background-color: blue;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+</body>
+</html>
+______________________________________________________
+
+In this code example, we have two div elements with the class "box" and unique IDs "box1" and "box2." Both boxes have absolute positioning, and they overlap each other because they have the same top and left values.
+
+However, the z-index property is used to control their stacking order. In this example:
+
+"box1" has a z-index of 2, making it higher in the stacking order.
+"box2" has a z-index of 1, making it lower in the stacking order.
+As a result, "box1" will be displayed on top of "box2" because it has a higher z-index value. If you were to switch the z-index values of the two boxes, "box2" would be displayed on top instead.
+
+So, in summary, the z-index property allows you to control the stacking order of elements in a web page, determining which elements are displayed in front of or behind others when they overlap. Elements with higher z-index values are displayed on top.

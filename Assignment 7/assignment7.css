@@ -122,6 +122,7 @@ div.navbar>.tab>a:hover{
 .blog {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin: 25px;
 }
 .blog h1 {
     font-family: 'Oswald', sans-serif;

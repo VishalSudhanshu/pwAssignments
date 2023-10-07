@@ -1,0 +1,29 @@
+Absolute and relative positioning are two common techniques used in web development and graphic design to control the positioning of elements on a webpage or within a graphical user interface. They have distinct characteristics and are used for different purposes:
+
+Absolute Positioning:
+    1. Absolute positioning allows you to place an element on a webpage or within a container relative to its closest positioned ancestor.
+    2. Positioned elements are removed from the normal document flow, meaning they don't affect the layout or positioning of other elements on the page.
+    3. You can specify the exact coordinates (top, right, bottom, left) to position the element relative to its closest ancestor with a non-static (e.g., relative, absolute, fixed) position. These coordinates are often defined in pixels.
+    4. Elements with absolute positioning are typically used for creating overlays, tooltips, or precisely positioning elements on a page, where you want to control their exact placement regardless of the surrounding content.
+
+Example CSS for absolute positioning:
+#absoluteElement {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+
+Relative Positioning:
+    1. Relative positioning allows you to move an element from its normal position within the document flow while still occupying space in the layout as if it hadn't been moved.
+    2. When you use relative positioning, you can adjust an element's position by specifying offset values (e.g., top, right, bottom, left) relative to its original position in the document flow.
+    3. Unlike absolute positioning, elements with relative positioning do not affect the positioning of other elements on the page, but they can interact with other elements based on their original position.
+
+Example CSS for relative positioning:
+#relativeElement {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+In summary, the key difference between absolute and relative positioning lies in how they affect the layout and positioning of elements on a webpage. Absolute positioning allows for precise control of an element's position and removes it from the normal document flow, while relative positioning allows you to adjust an element's position relative to its original location without removing it from the flow. The choice between these two positioning techniques depends on your design goals and how you want elements to interact with each other on the page.
