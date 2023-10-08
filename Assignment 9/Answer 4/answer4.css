@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+ font-family: 'Nunito', sans-serif;
+}
+.wrapper{
+    height: 100vh;
+    background-color: #d1d0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-section{
+    background-color: #f4f2fd;
+    width: 866px;
+    padding: 32px 48px;
+    display: flex;
+    gap: 32px;
+}
+.card{
+    background-color: #fff;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 32px;
+}
+.card h1{
+    font-size: 32px;
+    padding: 4px 8px ;
+}
+.card p{
+    padding: 0px 8px ;
+}
+.card h2{
+    font-size: 36px;
+    padding: 0px 8px ;
+    margin: 16px 0px 16px 0px;
+}
+.card ul{
+    margin-bottom: 16px;
+    padding-left: 30px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.card .btn{
+    margin-top: 16px;
+    padding: 8px 24px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.card__light{
+    background-color: #ffffff;
+}
+.card__dark{
+    background-color: #1C1C1C;
+    color: #ffffff;
+}
+.card__light .btn{
+    background-color: #1C1C1C;
+    color: #fff;
+}
+.card__dark .btn{
+    background-color: #ffffff;
+    color:  #1C1C1C;
+}
+.card__dark .btn:hover{
+    background-color: #1C1C1C;
+    border: 1px solid #ffffff;
+    color: #fff;
+}
+.card__light .btn:hover{
+    background-color: #ffffff;
+    border: 1px solid  #1C1C1C;
+    color:  #1C1C1C;
+}

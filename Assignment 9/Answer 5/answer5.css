@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #e7e7e7;
+}
+.wrapper{
+    background-color: #fff;
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+.irctc-page{
+    width: 40vw;
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    color: #333333;
+}
+.image-container img{
+    margin-top: 10px;
+    padding: auto;
+    height: 50%; 
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu{
+    text-align: end;
+}
+.tab1 button{
+    border: none;
+    background-color: #fff;
+    margin: 7px;
+    cursor: pointer;
+}
+.tab2 button{
+    border: 1px solid gray;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.tab1 button:hover{
+    text-decoration: underline;
+}
+.tab2 button:hover{
+    background-color: #FB792B;
+    color: #fff;
+}
+
+.header{
+    margin: 40px 0px;
+    padding: 20px 0px;
+    font-size: 24px;
+}
+.header h1{
+    font-size: 1.5em;
+    padding-bottom: 0.2em;
+}
+.header p span{
+    font-size: 1em;
+}
+.one{
+    color: #01BB0A;
+}
+.two{
+    color: #FB792B;
+    padding: 1em;
+}
+.three{
+    color: #213D77;
+}
+
+.booking-details{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.booking-details button{
+    display: flex;
+    padding: 0px 15px;
+    text-align: center;
+    border-radius: 7px;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+.booking-details button:hover{
+    background-color: #184296e5;
+    color: #ffffff;
+}
+.booking-details img{
+    padding: 5px;
+}
+#book-btn{
+    background-color: #213D77;
+    color: #ffffff;
+}
+#book-btn:hover{
+    background-color: #184296e5;
+    color: #ffffff;
+}
+
+.station-details{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.interchange-btn-container button{
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.from-to-card{
+    display: flex;
+    align-items: center;
+}
+
+.from-to-card img{
+    padding: 10px 20px;
+}
+.from-to-card span{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.from-to-card p{
+    font-size: 1em;
+}
+.from-to-card select{
+    font-size: 1.2em;
+    padding: 4px 8px;
+    border: none;
+}
+
+.search-btn-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-btn{
+    width: 100%;
+    color: #ffffff;
+    background-color: #01BB0A;
+    margin: 30px auto;
+    font-size: 2em;
+    padding: 16px ;
+   cursor: pointer;
+   border-radius: 10px;
+   font-weight: 700;
+   border: none;
+}
+.search-btn:hover{
+    background-color: #009307;
+}

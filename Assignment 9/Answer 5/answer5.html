@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="answer5.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <title>Assignment 9 || Answer 5</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="irctc-page">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="assets/logo1.png" alt="IRCTC"/>
+                    <img src="assets/logo2.png" alt="IRCTC Logo"/>
+                </div>
+                <div class="menu">
+                    <div class="tab1">
+                        <button>Ask Disha</button>
+                        <button>Contact us</button>
+                        <button>Alerts</button>
+                    </div>
+                    <div class="tab2">
+                        <button>Login</button>
+                        <button>Register</button>
+                        <button>Agent Login</button>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header">
+                <h1>Indian Railways</h1>
+                <p>
+                    <span class="one">Safety</span>
+                    <span class="two">Security</span>
+                    <span class="three">Punctuality</span>
+                </p>
+            </div>
+
+            <div class="booking-details">
+                <button id="book-btn"><img src="assets/ticketLogo.png" alt="ticket">BOOK Ticket</button>
+                <button><img src="assets/tick.png" alt="ticket">PNR Status</button>
+                <button><img src="assets/chart.png" alt="ticket">Charts / Vacancy</button>
+            </div>
+            
+            <div class="station-details">
+
+                <div class="from-to-card">
+                    <img src="assets/fromTrain.png" alt="">
+                    <div class="from-station-details">
+                        <select name="fromStation" id="fromStation" disabled>
+                            <option value="from">from</option>
+                        </select>
+                        <div class="info station">
+                            <span>Bangalore</span>
+                            <p>KSR-Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="interchange-btn-container">
+                    <button><img src="assets/interchange.png" alt="change button"></button>
+                </div>
+
+                <div class="from-to-card">
+                    <img src="assets/toTrain.png" alt="">
+                    <div class="to-station-details">
+                        <select name="toStation" id="toStation" disabled>
+                            <option value="to">to</option>
+                        </select>
+                        <div class="info station">
+                            <span>Kasaragod</span>
+                            <p>KSD-Kasaragod</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="station-details">
+                <div class="from-to-card">
+                    <img src="assets/date.png" alt="date">
+                    <div class="date-details">
+                        <select name="date" id="date" disabled>
+                            <option value="date">Date</option>
+                        </select>
+                        <div class="info">
+                            <span>01 Aug 23</span>
+                            <p>Tuesday</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="from-to-card">
+                    <img src="assets/class.png" alt="class">
+                    <div class="class-details">
+                        <select name="class" id="class" disabled>
+                            <option value="class">Class</option>
+                        </select>
+                        <div class="info">
+                            <span>3A</span>
+                            <p>AC 3 Tier</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="from-to-card">
+                    <img src="assets/seat.png" alt="seat">
+                    <div class="seat-details">
+                        <select name="seat" id="seat" disabled>
+                            <option value="seat">Seat</option>
+                        </select>
+                        <div class="info">
+                            <span>TATKAL</span>
+                            <p>AC 3 Tier</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="search-btn-container">
+                <button class="search-btn" type="submit">Search Train <img src="assets/arrowGo.png" alt=""></button>
+            </div>
+            
+        </div>
+        <div class="image-container">
+            <img src="assets/trainImg.png" alt="Train">
+        </div>
+    </div>
+</body>
+</html>
