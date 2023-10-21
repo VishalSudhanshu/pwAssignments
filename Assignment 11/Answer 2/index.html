@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 2</title>
+    <style>
+
+        .container{
+            margin: auto;
+            width: 60%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            place-items: center;
+        }
+        @media (max-width: 800px) {
+            .container{
+            grid-template-columns: 1fr 1fr;
+            }
+
+        }
+        @media (max-width: 500px) {
+            .container{
+            grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="photo">
+            <img src="https://fastly.picsum.photos/id/128/200/300.jpg?hmac=7to6-3CeagytIcDSNoyBUAgdzKPBMw3CYRpVrm7DBSA" alt="image01">
+        </div>
+        <div class="photo">
+            <img src="https://fastly.picsum.photos/id/177/200/300.jpg?hmac=3aZSyXagUtOBHW3uJ11PyzhXzImp4t1KRHNysu5k0Mg" alt="image02">
+        </div>
+        <div class="photo">
+            <img src="https://fastly.picsum.photos/id/559/200/300.jpg?hmac=lNV_-XwwjsYJn2cX4Pq7EFx4GA57ekwh_ZoR1dc09H0" alt="image03">
+        </div>
+    </div>
+</body>
+</html>
