@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Answer 1</title>
+    <style>
+        :root{
+            --primary-color: #00b7ff; 
+            --secondary-color: #6c757d;
+        }
+        .container button{
+            color: white;
+            border: none;
+            padding: 4px 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        #primaryBtn{
+            background-color: var(--primary-color);
+        }
+        #secondaryBtn{
+            background-color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Answer 1 -->
+    <!-- The var() function in CSS inserts the value of a custom property. A custom property is sometimes called a "CSS variable". 
+            The var() function accepts two parameters: 
+                custom_property: The required parameter. The name of the custom property must start with two dashes (–).
+
+        The var() function retrieves the value of the variable name and applies the value to whatever property you use it on. 
+            CSS variables have access to the DOM, which means that you can: 
+                Create variables with local or global scope
+                Change the variables with JavaScript
+                Change the variables based on media queries
+
+        Custom properties allow you to define a style in one place, then reuse that style elsewhere in your style sheets.  -->
+
+    <div class="container">
+        <button id="primaryBtn">Primary Button</button>
+        <button id="secondaryBtn">Secondary Button</button>
+    </div>
+</body>
+</html>
