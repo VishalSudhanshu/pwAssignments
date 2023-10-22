@@ -1,0 +1,36 @@
+/* B  */
+ul a{
+    color: crimson;
+}
+nav>h2{
+    background-color: #cfcfcf;
+    color: green
+}
+div + p{
+    color: red;
+}
+
+/* C  */
+a[href]{
+    color: red;
+    text-decoration: none;
+}
+a.active{
+    color: blueviolet;
+    text-decoration: underline;   
+}
+a[target=_self]{
+    background-color: #d4edff;
+}
+
+/* D  */
+p:last-child::after{
+    content: "...";
+}
+li::marker{
+    color: green;
+}
+p:nth-child(even)::first-letter{
+    font-size: 30px;
+    color: red;
+}
