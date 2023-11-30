@@ -1,0 +1,62 @@
+In programming, a loop is a statement that repeats instructions until a condition is met. They are used to automate repetitive tasks and make the code more efficient and concise.
+
+Loops are used to: 
+
+    Remove code redundancy
+
+    Save time
+    
+    Minimize errors
+    
+    Reusable code
+    
+    Traverse data structures
+
+Here are some types of loops: 
+
+    For loop: Repeats a set number of times
+
+    While loop: Repeats as long as an expression is true
+    
+    Do-while loop: Repeats until an expression becomes false
+    
+    Nested loop
+    
+    Foreach loop
+
+1 For Loop:
+    Syntax: 
+        for (initialization; condition; increment/decrement) {
+        // Code block to be executed in each iteration
+        }
+
+    Example:
+        for (let i = 0; i < 5; i++) {
+        console.log(i);
+        }
+
+2 While Loop:
+    Syntax:
+        while (condition) {
+        // Code block to be executed as long as the condition is true
+        }
+    
+    Example:
+        let i = 0;
+        while (i < 5) {
+            console.log(i);
+            i++;
+        }
+
+3 Do-While Loop:
+    Syntax:
+        do {
+            // Code block to be executed at least once, then repeated as long as the condition is true
+        } while (condition);
+
+    Example: 
+        let i = 0;
+        do {
+            console.log(i);
+            i++;
+        } while (i < 5);

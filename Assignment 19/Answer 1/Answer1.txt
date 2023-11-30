@@ -1,0 +1,27 @@
+Conditional statements in JavaScript are used to execute different blocks of code based on different conditions. If the condition is true, one block of code will be executed. If the condition is false, another block of code will be executed.
+
+There are three main types of conditional statements in JavaScript:
+    if statements:
+        The if statement is the most basic type of conditional statement. It is used to check if a certain condition is true and, if it is, execute a specific code block.
+
+    if-else statements:
+        The if-else statement is used to check if a certain condition is true and, if it is, execute one block of code. If the condition is false, another block of code will be executed.
+    
+    switch statements:
+        The switch statement is used to check if a certain value matches one of a set of possible values. If it does, a block of code associated with that value will be executed.
+
+Syntax
+if (condition) {
+    // Code block to be executed if the condition is true
+} else if (anotherCondition) {
+    // Code block to be executed if anotherCondition is true
+} else {
+    // Code block to be executed if none of the conditions are true
+}
+
+if: The keyword that starts the conditional statement.
+(condition): The condition that is evaluated. If it is true, the code block inside the curly braces {} following it will be executed.
+
+else if (anotherCondition): An optional part that allows you to check additional conditions if the previous ones are false.
+
+else: Another optional part that provides a default code block to be executed if none of the previous conditions are true.
